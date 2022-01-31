@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    margin: 3%;
+}
+
+a {
+    color: dodgerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    padding: 16px;
+    background-image: url("./images/banner.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.picture {
+    display:inline-block;
+    width: 125px;
+    margin-right: 10px;
+}
+
+.names {
+    display:inline-block;
+    color: whitesmoke;
+}
+
+.linkedin-icon {
+    display: inline-block;
+    width: 38px;
+}
+
+.material-icons {
+    font-size: 38px !important;
+    margin-left: 5px;
+}
+
+table, th, td {
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+}
+
+.city {
+    color: orange;
+}
+
+#summary {
+    background-color: bisque;
+}
+
+#profile {
+    background-color: khaki;
+}
+
+#skills {
+    background-color: orangered;
+}
+
+#courses {
+    background-color: hotpink;
+}
+
+#experiences {
+    background-color: dodgerblue;
+}
+
+#bonus {
+    background-color: lightcoral;
+}
+
+h2 {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+.simone {
+    max-width: 50%;
+}
+
+footer {
+    background-color: darkorange;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-button {
+    border: 0;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: ghostwhite;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background-color: rgb(80, 115, 221);
+    box-shadow: 3px 3px 3px black;
+}
+
+@media screen and (max-width: 800px) {
+    .simone {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .simone {
+        max-width: 90%;
+    }
+    .picture {
+        display: block;
+    }
+    .names {
+        display: block;
+    }
+}

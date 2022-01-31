@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <picture></picture>
+        <picture>
+            <source media="(max-width:650px)" srcset="./images/pic2.jpg">
+            <img class="picture" src="./images/pic.jpg" alt="Ma photo CV">
+        </picture>
+        <h1 class="names">Chris Chevalier</h1>
+        <a href="https://www.linkedin.com/in/chris-chevalier-9b7041140/" target="_blank"><img class="linkedin-icon" src="./images/linkedin-icon.png" alt="Logo LinkedIn"></a>
+        <a href="https://chris-freelance.com" target="_blank"><i class="material-icons">language</i></a>
+    </header>
+
+    <main>
+        <div id="summary">
+            <h2>Sommaire</h2>
+            <ul>
+                <a href="#profile"><li>Mon profil</li></a>
+                <a href="#skills"><li>Mes compétences</li></a>
+                <a href="#courses"><li>Mes formations</li></a>
+                <a href="#experiences"><li>Mes expériences professionnelles</li></a>
+                <a href="#bonus"><li>Bonus</li></a>
+            </ul>
+        </div>
+        
+        <div id="profile">
+            <h2>Mon profil</h2>
+            <table>
+                <tr>
+                    <th colspan="2">Nom et prénom</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Chevalier</td>
+                    <td>Chris</td>
+                    <td>Développeur web et mobile fullstack indépendant diplômé d'un Master en informatique,<br/>
+                        je cherche à diversifier mes expériences professionnelles et développer mes compétences.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="skills">
+        <h2>Mes compétences</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <a href="https://www.php.net"><li>PHP</li></a>
+                <li>JavaScript</li>
+                <a href="https://fr.reactjs.org"><li>React</li></a>
+                <li>React Native</li>
+                <li>Symfony</li>
+                <li>GitHub</li>
+            </ol>
+        </div>
+
+        <div id="courses">
+            <h2>Mes formations</h2>
+            <h3>Licence informatique spécialisée "Ingénierie du logiciel" - <b class="city">Avignon</b></h3>
+            <h3>Master informatique spécialisé "Ingénierie du logiciel et de la société numérique" - <b class="city">Avignon</b></h3>
+        </div>
+
+        <div id="experiences">
+            <h2>Mes expériences professionnelles</h2>
+            <h3>Développeur web et mobile - IAS Ingénérie</h3>
+            <ul>
+                <li>Développement web front-end React</li>
+                <li>Développement mobile React Native</li>
+                <li>Développement back-end Symfony</li>
+                <li>Développement d'une simulation 3D Unity</li>
+            </ul>
+
+            <h3>Développeur web et mobile indépendant</h3>
+            <ul>
+                <li>Développement web front-end React</li>
+                <li>Développement mobile React Native</li>
+                <li>Développement back-end Symfony</li>
+                <li>Rédaction et présentation de cours magistraux en école</li>
+                <li>Formation aux technologies web et mobile</li>
+            </ul>
+        </div>
+
+        <div id="bonus">
+            <h2>Bonus</h2>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas les éléments audio.
+            </audio>
+            <iframe src="https://open.spotify.com/embed/artist/72FV8XhDN5SCOikqpfnQ2F" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe  src="https://www.youtube.com/embed/rn5fK4sXMno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <img class="simone" src="./images/simone.jpg" alt="Le groupe Simone">
+        </div>
+    </main>
+
+    <footer>
+        <a href="mailto:chevalier@chris-freelance.com"><button class="contact-button">Contactez-moi !</button></a>
+    </footer>
+</body>
+</html>
